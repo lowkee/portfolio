@@ -1,0 +1,45 @@
+/*My first CSS file*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 5px solid red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+body {
+      background-image: url("../images/cloudsbellevue.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      padding-top: 10px; 
+      background-color: gray;
+      color: black;  
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    font-style: italic;
+}
+h2 {
+    color: yellow;
+  font-style: oblique;
+}  
