@@ -5,7 +5,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    border: 5px solid red;
+    border: 5px solid gray;
 }
 
 li {
@@ -21,16 +21,17 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: green;
+    background-color: lightskyblue;
 }
 
 body {
       background-image: url("../images/cloudsbellevue.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-position: center; 
-      padding-top: 10px; 
+      background-position: center;
+      background-size: 100%;
       background-color: gray;
+      padding-top: 10px;  
       color: black;  
 }
 
@@ -40,6 +41,22 @@ h1 {
     font-style: italic;
 }
 h2 {
-    color: yellow;
-  font-style: oblique;
+    background-color: black;
+    border
+    color: black;
+    font-style: oblique;
+    width: 300px;
+    height: 25px;
+    background-color: pink;
+    box-shadow: 10px 10px 5px black;
 }  
+div.absolute {
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+footer {
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+}
