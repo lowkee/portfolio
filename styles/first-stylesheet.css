@@ -6,11 +6,11 @@ ul {
     overflow: hidden;
     background-color: #333;
     border: 5px solid gray;
-  }
+}
 
 li {
   float: left;
-    }
+}
 
 li a {
     display: block;
@@ -18,14 +18,14 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
+}
 
 li a:hover:not(.active) {
     background-color: lightskyblue;
-  }
+}
 ol li{
-clear:both;
-  }
+clear: both;
+}
 
 body {
       background-image: url("../images/cloudsbellevue.jpg");
@@ -36,7 +36,7 @@ body {
       background-color: gray;
       padding-top: 10px;  
       color: black;  
-  }
+}
 
 h1 {
     color: black;
@@ -44,8 +44,6 @@ h1 {
     font-style: italic;
 }
 h2 {
-    background-color: black;
-    border
     color: black;
     font-style: oblique;
     width: 300px;
@@ -53,17 +51,28 @@ h2 {
     background-color: pink;
     box-shadow: 10px 10px 5px black;
 }  
+h3 {
+    background-color: none;
+    font-style: italic;
+    color: black;
+}
+
 div.absolute {
     position: absolute;
     bottom: 5px;
-    width: 1250px;
+    width: 1300px;
     height: auto;
     border: none;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+p.solid {
+  border-style: ridge;
+  border-color: cadetblue;
+  border-bottom-width: medium;
+}
 
 i {
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">/*can't get this link from font awesome to work yet but that's okay*/
 }
